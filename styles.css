@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(211, 211, 16);
+  display: flex;
+  justify-content: center;
+}
+.list-gatos {
+  margin-top: 30px;
+  width: 80%;
+  min-height: 50vh;
+  background-color: aquamarine;
+  padding-bottom: 50px;
+}
+#contenedor-gatitos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contenedor-gatitos p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+#gatito {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 270px));
+    gap: 20px;
+  }
+#gatito div{
+    width: 270px;
+    height: 200px;
+    position: relative;
+}
+  
+.clase-gato {
+  width: 270px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.icon-favorito{
+    position: absolute;
+    top: 10px ;
+    right: 10px ;
+    cursor: pointer;
+}
+
+.fa-heart{
+    font-size: 3.1rem;
+    color: #e40707;
+}
+
+.fa-heart:hover{
+    color: #09da3d ;
+}
+
+#contenedor-gatitos #button-mas-gatod {
+  margin-top: 20px;
+  font-size: 2rem;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: bisque;
+  cursor: pointer;
+}
+#contenedor-gatitos #button-mas-gatod:hover {
+  background-color: burlywood;
+}
