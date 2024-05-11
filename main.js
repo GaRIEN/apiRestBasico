@@ -29,11 +29,10 @@ document.addEventListener("DOMContentLoaded", function () {
   
   const iconFavorito = document.querySelectorAll('.icon-favorito .fa-heart');
 
-  // Itera sobre cada elemento .icon-favorito y añade un evento de clic a cada uno
   iconFavorito.forEach(pElemento => {
     pElemento.addEventListener('click', function() {
       console.log('entre al click');
-      // Aquí puedes agregar el código que desees que se ejecute cuando se haga clic en un elemento .icon-favorito
+
     });
   });
 
